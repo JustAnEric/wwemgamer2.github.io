@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.title {
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.title strong {
+  color: darkgoldenrod;
+  cursor: alias;
+}
+
+html, body {
+  background: grey;
+}
+
+.title strong:hover {
+  color: gold;
+  transition: color 1s ease-in-out;
+}
+
+.button {
+  outline: none;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  background: darkgray;
+  cursor: help;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button:focus {
+  transition: background 1s ease-in-out;
+  background: salmon;
+}
+
+.red-txt {
+  color: red;
+}
+
+.orng-txt {
+  color: orange;
+}
+
+.yellow-txt {
+  color: yellow;
+}
+
+.green-txt {
+  color: green;
+}
+
+.blue-txt {
+  color: skyblue;
+}
